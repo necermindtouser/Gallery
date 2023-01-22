@@ -1,0 +1,73 @@
+* {
+	paidding:0;
+	margin:0;
+	 box-sizing: border-box;
+}
+
+h1 {
+width:100% ; 
+text-align: center;
+font-size:36px;
+}
+main{
+	width:70%;
+margin:auto;
+background-color:  #f8defe;
+padding:50px;
+display: flex;
+ flex-wrap:wrap;
+ box-shadow:0 0 16px 1px rgba(0,0,0.10);
+}
+
+body{
+	background-color:  #f4eef5;
+	font-family:cursive;
+}
+
+.photo{
+	width: calc(50% - 40px);
+	height: 300px;
+	margin: 10px;
+	background-color: black;
+	background-position:center;
+	background-size: cover;
+	box-shadow:0 0 10px 1px rgba(0,0,0.03);
+
+}
+
+.photo1{
+	background-image:url(img/img1.jpg)
+}
+.photo2{
+	background-image:url(img/img2.jpg)
+}
+.photo3{
+	background-image:url(img/img3.jpg)
+}
+.photo4{
+	background-image:url(img/img4.jpg)
+}
+.photo5{
+	background-image:url(img/img5.jpg)
+}
+.photo6{
+	background-image:url(img/img6.jpg)
+}
+.photo7{
+	background-image:url(img/img7.jpg)
+}
+.photo8{
+	background-image:url(img/img8.jpg)
+}
+.photo9{
+	background-image:url(img/img9.jpeg)
+}
+.photo10{
+	background-image:url(img/img10.jpg)
+}
+.photo:hover{
+	transform:rotate(3deg)scale(1.2) ;
+	opacity:0.97;
+	box-shadow:0 0 16px 7px rgba(0,0,0.010);
+	transition:all 1.2s ease;
+}
